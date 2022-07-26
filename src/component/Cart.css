@@ -1,0 +1,55 @@
+.cart-icon{
+position: relative;
+margin-right: 15px;
+}
+.cart-icon span {
+    background:crimson;
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    font-size: 10px;
+    padding: 5px;
+}
+.cart {
+    position: relative;
+    border: 1px solid #ccc;
+    transform: scaleY(0.98);
+}
+.amount span {
+    color: crimson;
+    padding: 0 20px;
+}
+.amount .count {
+width: 40px;
+height:30px;
+border: 1px solid #555;
+outline: none;
+background: #555;
+cursor: pointer;
+}
+.delete{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: crimson;
+    cursor: pointer;
+    font-weight: 900;
+}
+.total {
+    width: 100%;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.total a{
+background: #333;
+color: white;
+padding: 10px 25px;
+}
+.total h3{
+margin-right: 50px;
+color: crimson;
+}
